@@ -1,4 +1,66 @@
 main,
 footer {
-  display: flex;
+  display: flex; 
 }
+.container  {
+  width:80vws;
+  background-color: cyan;
+}
+
+.content img{
+  width: 80vw;
+}
+.container div img {
+  background-color: rgb(10, 10, 92);
+  position:fixed;
+  text-align: center;
+  padding-left:265px;
+  padding-right: 265px ;
+  
+}
+
+.content #services + p {
+    background-color: green;
+
+}
+
+.content h1 {
+  padding-top: 50px;
+}
+.content p {
+  background-color: rgb(45, 46, 45);
+  
+  color: white;
+
+}
+
+.sidebar{
+  padding-top: 50px;
+  background-color: yellow;
+
+}
+
+#services + p + ul{
+  color: rgb(18, 46, 37);
+}
+#services + p + ul > li:nth-child(even){
+  color: white;
+}
+
+#contact ~ ul li a  {
+  color: rgb(253, 109, 109);
+}
+
+footer div p {
+  margin: 0%;
+  background-color: rgb(255, 120, 221);
+}
+
+footer div + div  p {
+  background-color: rgb(240, 27, 62);
+}
+
+footer div + div + div p {
+  background-color: rgb(120, 120, 150);
+}
+
