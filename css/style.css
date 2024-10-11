@@ -3,7 +3,6 @@ footer {
   display: flex; 
 }
 .container  {
-  width:80vws;
   background-color: cyan;
 }
 
@@ -12,10 +11,9 @@ footer {
 }
 .container div img {
   background-color: rgb(10, 10, 92);
-  position:fixed;
-  text-align: center;
-  padding-left:265px;
-  padding-right: 265px ;
+  position:absolute;
+  padding-left:41vw;
+  padding-right: 41vw  ;
   
 }
 
